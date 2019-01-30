@@ -23,7 +23,7 @@ public class StudentTester {
         
         for (int i=0;i<stuList.length;i++)
         {
-            System.out.println ("Name:" + stuList[i].getName() + " ID: " + stuList[i].getID());
+            System.out.println ("Name:hello" + stuList[i].getName() + " ID: " + stuList[i].getID());
         }
         
     }
