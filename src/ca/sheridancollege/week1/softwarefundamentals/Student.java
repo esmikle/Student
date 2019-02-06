@@ -13,6 +13,26 @@ public class Student {
 
     private int ID;
     private String name;
+    public String PartTime;
+
+    /**
+     * Get the value of PartTime
+     *
+     * @return the value of PartTime
+     */
+    public String getPartTime() {
+        return PartTime;
+    }
+
+    /**
+     * Set the value of PartTime
+     *
+     * @param PartTime new value of PartTime
+     */
+    public void setPartTime(String PartTime) {
+        this.PartTime = PartTime;
+    }
+
     
     private String address;
 
